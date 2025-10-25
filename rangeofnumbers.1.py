@@ -1,0 +1,30 @@
+mylist=[23,43,65,1,67,90]
+print(mylist[1:4])
+print(mylist[0:])
+print(mylist[:5])
+print(mylist[-4:-1])
+print(mylist[-4:])
+mylist[3]="apple";
+print(mylist)
+mylist[1:3]=["hello","haii"]
+print(mylist)
+mylist.insert(2,"cse")
+print(mylist)
+for n in mylist:
+    print(n)
+print("bollo" not in mylist)
+mytuple=(12,'apple',True,98.2,87)
+print(mytuple)
+print(mytuple[-1])
+print(mytuple[0:3])
+mylist=list(mytuple)
+mylist.insert(2,'raju')
+print(mylist)
+mylist.append(234)
+print(mylist)
+mylist.remove('apple')
+print(mylist)
+mylist.reverse()
+print(mylist)
+mylist=[23,45,987,67890]
+print (max(mylist))
